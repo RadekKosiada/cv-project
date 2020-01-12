@@ -4,6 +4,8 @@ import './App.css';
 
 function Experience(props) {
   console.log(props.mainData)
+
+  
   return (
     <div className={`experience ${props.className}`}>
       <h1 className="header-experience">{props.header}</h1>
@@ -15,7 +17,7 @@ function Experience(props) {
         let country = elem.country;
         let url = elem.url;
         let start = elem.startDate;
-        let end = elem.endDate ? elem.endDate : "Ongoing";
+        let end = elem.endDate;
         let fields = elem.responsibilities ? elem.responsibilities : elem.skills;
 
         return (
@@ -28,7 +30,7 @@ function Experience(props) {
             </p> 
           
               {/* icon  for calendar? */}
-              <span className="experience-date">{start}-{end}</span>
+              <span className="experience-date">{editDate(start)} - {end ? editDate(end) : "Ongoing"}</span>
               {/* fields */}
               <ul>
               {fields.map((field, indexField) => {
@@ -43,3 +45,12 @@ function Experience(props) {
 }
 
 export default Experience;
+
+function editDate(dateString) {
+  const optionsForDate = { year: 'numeric', month: 'short'};
+  const lang = "en-EN"
+  return new Date(dateString).toLocaleDateString(lang, optionsForDate)
+}
+
+
+//read more;
