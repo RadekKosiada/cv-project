@@ -1,0 +1,44 @@
+[
+  {
+    "degree": "Full Stack Web Development",
+    "institution": "SPICED Academy",
+    "location": "Berlin",
+    "country": "Germany",
+    "url":"",
+    "startDate": "2018-08",
+    "endDate": "2018-11",
+    "skills": [
+      "JavaScript, jQuery HTML, CSS, Vue.js, React.js;",
+      "Building ",
+      "DOM manipulation", 
+      "Designing and building responsive UIs",
+      "Server side programming with Node.js & Express.js;",
+      "Building and managing databases with PostgreSQL;"
+    ]
+  },
+  {
+    "degree": "Social Science (B. A.)",
+    "institution": "Otto von Guericke University Magdeburg",
+    "location": "Magdeburg",
+    "country": "Germany",
+    "url":"",
+    "startDate": "2007-10",
+    "endDate": "2010-03",
+    "skills": [
+      "Biography research, aspects of the public sphere, mass culture."
+    ]
+  },
+  {
+    "degree": "History of Art (M. A.)",
+    "institution": "University of Łódź",
+    "location": "Łódź",
+    "country": "Poland",
+    "url":"",
+    "startDate": "2003-10",
+    "endDate": "2010-11",
+    "skills": [
+      "20th century art, art critique, exhibition management.",
+      "Participant and co-organizer of various student conferences and exhibitions."
+    ]
+  }
+]

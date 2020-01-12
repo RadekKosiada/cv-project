@@ -1,0 +1,31 @@
+[
+  {
+    "category": "front-end",
+    "tools": [
+      "HTML5", "CSS3", "Sass", "Bootstrap", "JavaScript", "jQuery", "React.js", "Vue.js", "D3.js"
+    ]
+  },
+  {
+    "category": "back-end",
+    "tools": [ 
+      "Node.js", "Express.js"
+    ]
+  },
+  {
+    "category": "data base",
+    "tools": [
+      "PostgreSQL"
+    ]
+  },
+  {
+    "category": "UI",
+    "tools": [
+      "Figma", "Adobe Photoshop"
+    ]
+  },
+  {"category": "version control",
+  "tools": [
+    "Git"
+  ]
+  }
+]

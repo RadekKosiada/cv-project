@@ -1,0 +1,137 @@
+[
+  {
+    "jobTitle": "Web Developer",
+    "companyName": "HIRSCHTEC GmbH & Co. KG",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://hirschtec.eu/",
+    "startDate": "2019-09",
+    "endDate": false,
+    "responsibilities": [
+      "Maintaining and expanding social intranet solutions for portfolio clients;",
+      "Providing cost and requirements analysis (Proof of Concepts);",
+      "Building internal tools with React.js."
+    ]
+  },
+  {
+    "jobTitle": "Frontend Developer",
+    "companyName": "AtomLeap GmbH ",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://atomleap.com/",
+    "startDate": "2019-01",
+    "endDate": "2019-08",
+    "responsibilities": [
+      "Developing and maintaining internal tools with Vue.js;",
+      "Designing and building reactive data visualizations with D3.js",
+      "Participating in extending company's technology stack and project management tools."
+    ]
+  },
+  {
+    "jobTitle": "Javascript Developer",
+    "companyName": "",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://: radekkosiada.github.io/",
+    "startDate": "2017-09",
+    "endDate": false,
+    "responsibilities": [
+      "Extending my programming skills and expanding my portfolio",
+      "Participation in co-learning workshops (codebar.io, FreeCodeCamp Berlin, Freelance Friday Berlin)",
+      "Attending networking meetups (Berlin.js, rahm.ceo, unicornsintech.com)"
+    ]
+  },
+  {
+    "jobTitle": "Project Manager",
+    "companyName": "Plinga GmbH",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://www.plinga.com",
+    "startDate": "2015-10",
+    "endDate": "2018-03",
+    "responsibilities": [
+      "Coordinating the integration of social games with internal teams and international clients;",
+      "Establishing and maintaining relationships with external partners worldwide;",
+      "Designing and executing an end user monetization strategy;",
+      "Monitoring the performance of games on given KPIs;",
+      "Managing and optimizing daily operations; ",
+      "Coordinating the design of marketing materials with the graphics team."
+    ]
+  },
+  {
+    "jobTitle": "Translator and Community Manager",
+    "companyName": "Plinga GmbH",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://www.plinga.com",
+    "startDate": "2014-04",
+    "endDate": "2015-09",
+    "responsibilities": [
+      "Localizing social games and their updates;",
+      "Creating marketing materials with the graphics team",
+      "Managing social media channels;",
+      "Designing and managing community events;",
+      "Game testing and customer support"
+    ]
+  },
+  {
+    "jobTitle": "Online Marketing Trainee",
+    "companyName": "Lieferando.de",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://www.lieferando.com",
+    "startDate": "2013-07",
+    "endDate": "2014-01",
+    "responsibilities": [
+      "Creating and optimizing of landing pages, link building, evaluation of external websites;",
+      "Preparing marketing materials and articles for partner platforms;",
+      "Managing social media channels, organizing and executing community events;",
+      "Writing and localizing newsletters;",
+      "Developing partnerships with external companies;",
+      "Assistance in the planning and executing offline marketing campaigns."
+    ]
+  },
+  {
+    "jobTitle": "Gallery Assistant",
+    "companyName": "Blain|Southern Berlin",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://www.blainsouthern.com/",
+    "startDate": "2012-10",
+    "endDate": "2013-05",
+    "responsibilities": [
+      "Assistance in the production and management of the exhibition series;",
+      "Art market research; public relations, visitor and client assistance; ",
+      "German-English translations, bookkeeping."
+    ]
+  },
+  {
+    "jobTitle": "Event Manager",
+    "companyName": "at 7th Berlin Biennale",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "https://www.berlinbiennale.de/de/",
+    "startDate": "2012-04",
+    "endDate": "2012-07",
+    "responsibilities": [
+      "Preparing and managing the events' program; assisting artists and other participants;",
+      "Coordinating between participants, curators and different departments of the KW/BB-7 team;",
+      "German-English-Polish translations; research."
+    ]
+  },
+  {
+    "jobTitle": "Data Base Administrator of ArtWiki.org",
+    "companyName": "7th Berlin Biennale",
+    "location": "Berlin",
+    "country": "Germany",
+    "url": "artwiki.org",
+    "startDate": "2011-11",
+    "endDate": "2012-04",
+    "responsibilities": [
+      "Data base administration;",
+      "Maintaining the complete collection of BB7 open call portfolios;",
+      "Development of ArtWiki.org;",
+      "Coordinating the ArtWiki.org team."
+    ]
+  }
+]
