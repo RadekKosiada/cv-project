@@ -1,3 +1,31 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+
+.experience {
+  border: 1px solid grey;
+  margin: 5px;
+}
+
+.experience-unit {
+  padding-left: 15px;
+  margin: 0;
+}
+
+.header-experience {
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+.experience-institution {
+  color: blue;
+  text-decoration: none;
+}
+
+.experience.work {
+  background-color: antiquewhite;
+}
+
+.experience.education {
+  background-color: beige;
 }
