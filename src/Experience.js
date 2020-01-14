@@ -1,24 +1,22 @@
 import React from 'react';
 import './App.css';
 
+import { formatDate } from './helpers';
+
 
 function Experience(props) {
-  console.log(props.mainData)
+  console.log(props.mainData);
 
-  
   return (
     <div className={`experience ${props.className}`}>
       <h1 className="header-experience">{props.header}</h1>
 
       {props.mainData.map((elem, index) => {
-        let title = elem.jobTitle ? elem.jobTitle : elem.degree;
-        let institution = elem.companyName ? elem.companyName : elem.institution;
-        let location = elem.location;
-        let country = elem.country;
-        let url = elem.url;
-        let start = elem.startDate;
-        let end = elem.endDate;
-        let fields = elem.responsibilities ? elem.responsibilities : elem.skills;
+        const title = elem.jobTitle ? elem.jobTitle : elem.degree;
+        const institution = elem.companyName ? elem.companyName : elem.institution;
+        //object deconstructing
+        const { location, country, url, startDate: start, endDate: end } = elem;
+        const fields = elem.responsibilities ? elem.responsibilities : elem.skills;
 
         return (
           <div key={index} className="experience-unit">
@@ -30,11 +28,11 @@ function Experience(props) {
             </p> 
           
               {/* icon  for calendar? */}
-              <span className="experience-date">{editDate(start)} - {end ? editDate(end) : "Ongoing"}</span>
+              <span className="experience-date">{formatDate(start)} - {end ? formatDate(end) : "Ongoing"}</span>
               {/* fields */}
               <ul>
               {fields.map((field, indexField) => {
-                return( <li key={`${institution}-${indexField}`}>{field}</li> ) 
+                return( <li key={indexField}>{field}</li> ) 
               })}
               </ul>
           </div>
@@ -46,11 +44,7 @@ function Experience(props) {
 
 export default Experience;
 
-function editDate(dateString) {
-  const optionsForDate = { year: 'numeric', month: 'short'};
-  const lang = "en-EN"
-  return new Date(dateString).toLocaleDateString(lang, optionsForDate)
-}
+
 
 
 //read more;
