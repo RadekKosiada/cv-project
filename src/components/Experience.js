@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 
-import { formatDate } from './helpers';
+import { formatDate } from '../helpers';
 
 
 function Experience(props) {

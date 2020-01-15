@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 // Components
-import Experience from './Experience';
-import Header from './Header';
-import About from './About';
+import Experience from './components/Experience';
+import Header from './components/Header';
+import About from './components/About';
 
 // Data
 //
