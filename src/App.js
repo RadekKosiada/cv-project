@@ -5,6 +5,7 @@ import './App.css';
 import Experience from './components/Experience';
 import Header from './components/Header';
 import About from './components/About';
+import Skills from './components/Skills';
 
 // Data
 //
@@ -18,9 +19,7 @@ import skills from './json-files/skills.json';
 //
 import projects from './json-files/projects.json';
 
-
 let edu = education;
-console.log(edu);
 
 function App() {
   return (
@@ -28,6 +27,8 @@ function App() {
       <Header />
 
       <About />
+
+      <Skills {...skills} />
 
       <Experience
         header = "Work experience"

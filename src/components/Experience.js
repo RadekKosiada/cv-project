@@ -5,7 +5,6 @@ import { formatDate } from '../helpers';
 
 
 function Experience(props) {
-  console.log(props.mainData);
 
   return (
     <div className={`experience ${props.className}`}>

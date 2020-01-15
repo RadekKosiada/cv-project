@@ -4,7 +4,7 @@ import { expression } from '@babel/template';
 
 function About() {
   return (
-    <div>
+    <div className="about-unit">
       <h1>About me</h1>
       <p>With years of experience in the online ﬁeld, I enjoy realizing my creativity through the programming and designing engaging UIs. I am on a constant search for exciting challenges in web development and new learning possibilities.</p>
     </div>
