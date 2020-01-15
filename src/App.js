@@ -3,7 +3,8 @@ import './App.css';
 
 // Components
 import Experience from './Experience';
-import Header from './Header'; 
+import Header from './Header';
+import About from './About';
 
 // Data
 //
@@ -25,7 +26,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
+
+      <About />
+
       <Experience
         header = "Work experience"
         className="work"
