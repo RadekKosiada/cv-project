@@ -1,6 +1,10 @@
 import React from 'react';
 import './App.css';
 
+// Components
+import Experience from './Experience';
+import Header from './Header'; 
+
 // Data
 //
 import education from './json-files/education.json';
@@ -13,9 +17,6 @@ import skills from './json-files/skills.json';
 //
 import projects from './json-files/projects.json';
 
-// Components
-import Experience from './Experience';
-
 
 let edu = education;
 console.log(edu);
@@ -23,6 +24,8 @@ console.log(edu);
 function App() {
   return (
     <div className="App">
+      <Header />
+      
       <Experience
         header = "Work experience"
         className="work"
