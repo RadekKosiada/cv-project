@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 
+//component for Strengths & Languages
 function Skills(props) {
   return (
     <div className={`skills ${props.skillClass}`}>
@@ -11,7 +12,7 @@ function Skills(props) {
         const skillDescription = skill.description ? skill.description : skill.level;
 
         return (
-          <div key={index} className={`${props.className}-unit`}>
+          <div key={index} className={`${props.skillClass}-unit`}>
             <h3 className={`${props.className}-name`}>{skillName}</h3>
             <p className={`${props.className}-description`}>
               {skillDescription}
@@ -20,14 +21,6 @@ function Skills(props) {
         );
       })}
 
-      {/* {strengthsArr.map((s, i) => {
-        return (
-          <div key={i} className="skill">
-            <h3 className="skill-name">{s.strength}</h3>
-            <p className="skill-description">{s.description}</p>
-          </div>
-        );
-      })} */}
     </div>
   );
 }

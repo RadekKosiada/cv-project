@@ -26,24 +26,35 @@ let edu = education;
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Picture />
+      <div className="intro-column">
+        <Picture />
+        <Header />
+        <About />
 
-      <About />
+        <Technologies {...technologies} />
 
-      <Technologies {...technologies} />
+        <Skills
+          skillsData={languages}
+          header="Languages"
+          skillClass="languages"
+        />
 
-      <Skills skillsData={strengths} header="Strengths" skillClass="strengths" />
+        <Skills
+          skillsData={strengths}
+          header="Strengths"
+          skillClass="strengths"
+        />
+      </div>
 
-      <Experience header="Work experience" className="work" mainData={work} />
+      <div className="main-column">
+        <Experience header="Work experience" className="work" mainData={work} />
 
-      <Experience
-        header="Education"
-        className="education"
-        mainData={education}
-      />
-
-      <Skills skillsData={languages} header="Languages" skillClass="languages" />
+        <Experience
+          header="Education"
+          className="education"
+          mainData={education}
+        />
+      </div>
     </div>
   );
 }
