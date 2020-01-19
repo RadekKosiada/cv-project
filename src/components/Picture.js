@@ -4,7 +4,7 @@ import '../App.css';
 
 function Picture() {
   return (
-    <div className="picture-unit">
+    <div className="picture">
       <img src="/images/picture.jpg" />
     </div>
   )

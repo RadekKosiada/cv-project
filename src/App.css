@@ -3,8 +3,8 @@
 }
 
 .experience, 
-.technologies-unit,
-.about-unit,
+.technologies,
+.about,
 .skills-unit,
 .languages-unit {
   border: 1px solid grey;
@@ -43,7 +43,7 @@
   margin: 5px;
 }
 
-.picture-unit img {
+.picture img {
   width: 250px;
 
 }

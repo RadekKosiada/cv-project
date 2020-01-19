@@ -16,7 +16,7 @@ function Technologies(props) {
   });
 
   return (
-    <div className="technologies-unit">
+    <div className="technologies">
       <h1 className="technologies-header">Technologies</h1>
       {allTools.map((tool, key) => {
         return ( <span className="technology" key={key}>{tool} </span>)
