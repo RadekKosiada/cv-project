@@ -17,6 +17,7 @@ function Skills(props) {
 
   return (
     <div className="skills-unit">
+      <h1 className="skills-header">Skills</h1>
       {allTools.map((tool, key) => {
         return ( <span className="skill" key={key}>{tool} </span>)
       })}

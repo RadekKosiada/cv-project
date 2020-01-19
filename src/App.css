@@ -15,8 +15,11 @@
   margin: 0;
 }
 
+.header-name,
 .experience-header, 
-.strengths-header {
+.strengths-header,
+.skills-header,
+.about-header {
   text-transform: uppercase;
   padding-left: 15px;
 }
