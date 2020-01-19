@@ -5,9 +5,10 @@ import './App.css';
 import Experience from './components/Experience';
 import Header from './components/Header';
 import About from './components/About';
-import Skills from './components/Skills';
+import Technologies from './components/Technologies';
 import Strenghts from './components/Strengths';
 import Picture from './components/Picture';
+import Languages from './components/Languages';
 
 // Data
 //
@@ -17,7 +18,7 @@ import work from './json-files/work.json';
 import languages from './json-files/languages.json';
 import strenghts from './json-files/strenghts.json';
 //
-import skills from './json-files/skills.json';
+import technologies from './json-files/technologies.json';
 //
 import projects from './json-files/projects.json';
 
@@ -31,9 +32,12 @@ function App() {
 
       <About />
 
-      <Skills {...skills} />
+      <Technologies {...technologies} />
 
-      <Strenghts  {...strenghts}/>
+      {/* <Strenghts  
+        data={strenghts}
+        header = ""
+        /> */}
 
       <Experience
         header = "Work experience"
@@ -47,6 +51,8 @@ function App() {
         mainData = {education}
 
       />
+
+      <Languages />
 
     </div>
   );

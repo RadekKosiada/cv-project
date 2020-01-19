@@ -2,7 +2,7 @@
   {
     "category": "front-end",
     "tools": [
-      "HTML5", "CSS3", "Sass", "Bootstrap", "JavaScript", "jQuery", "React.js", "Vue.js", "D3.js"
+      "HTML5", "CSS3", "Sass", "Bootstrap", "JavaScript", "jQuery", "Handlebars", "React.js", "Vue.js", "D3.js"
     ]
   },
   {

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 
-function Skills(props) {
+function Technologies(props) {
   let array = [];
   Object.keys(props).forEach((index) => {
     array.push(props[index])
@@ -16,14 +16,14 @@ function Skills(props) {
   });
 
   return (
-    <div className="skills-unit">
-      <h1 className="skills-header">Skills</h1>
+    <div className="technologies-unit">
+      <h1 className="technologies-header">Technologies</h1>
       {allTools.map((tool, key) => {
-        return ( <span className="skill" key={key}>{tool} </span>)
+        return ( <span className="technology" key={key}>{tool} </span>)
       })}
     </div>
   )
   
 }
 
-export default Skills;
+export default Technologies;
