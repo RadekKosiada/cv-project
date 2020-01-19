@@ -33,7 +33,7 @@ function App() {
 
       <Technologies {...technologies} />
 
-      <Skills skillsData={strengths} header="Strengths" skillClass="strength" />
+      <Skills skillsData={strengths} header="Strengths" skillClass="strengths" />
 
       <Experience header="Work experience" className="work" mainData={work} />
 

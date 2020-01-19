@@ -5,8 +5,8 @@
 .experience, 
 .technologies,
 .about,
-.skills-unit,
-.languages-unit {
+.languages,
+.strengths {
   border: 1px solid grey;
   margin: 5px;
 }

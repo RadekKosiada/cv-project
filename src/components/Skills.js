@@ -3,7 +3,7 @@ import "../App.css";
 
 function Skills(props) {
   return (
-    <div className={`skills ${props.className}`}>
+    <div className={`skills ${props.skillClass}`}>
       <h1 className="skills-header">{props.header}</h1>
 
       {props.skillsData.map((skill, index) => {
