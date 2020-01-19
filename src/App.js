@@ -6,7 +6,7 @@ import Experience from './components/Experience';
 import Header from './components/Header';
 import About from './components/About';
 import Technologies from './components/Technologies';
-import Strenghts from './components/Strengths';
+import Skills from './components/Skills';
 import Picture from './components/Picture';
 import Languages from './components/Languages';
 
@@ -16,7 +16,7 @@ import education from './json-files/education.json';
 import work from './json-files/work.json';
 //
 import languages from './json-files/languages.json';
-import strenghts from './json-files/strenghts.json';
+import strengths from './json-files/strengths.json';
 //
 import technologies from './json-files/technologies.json';
 //
@@ -34,10 +34,9 @@ function App() {
 
       <Technologies {...technologies} />
 
-      {/* <Strenghts  
-        data={strenghts}
-        header = ""
-        /> */}
+      <Skills  {...strengths}
+        
+        />
 
       <Experience
         header = "Work experience"

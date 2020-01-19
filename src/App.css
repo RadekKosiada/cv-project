@@ -5,7 +5,7 @@
 .experience, 
 .technologies-unit,
 .about-unit,
-.strengths-unit,
+.skills-unit,
 .languages-unit {
   border: 1px solid grey;
   margin: 5px;
@@ -18,7 +18,7 @@
 
 .header-name,
 .experience-header, 
-.strengths-header,
+.skills-header,
 .technologies-header,
 .about-header,
 .languages-header {
