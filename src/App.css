@@ -37,3 +37,8 @@
 .skill {
   margin: 5px;
 }
+
+.picture-unit img {
+  width: 250px;
+
+}

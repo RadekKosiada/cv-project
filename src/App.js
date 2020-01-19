@@ -7,6 +7,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Strenghts from './components/Strengths';
+import Picture from './components/Picture';
 
 // Data
 //
@@ -26,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Picture />
 
       <About />
 
