@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
+import Strenghts from './components/Strengths';
 
 // Data
 //
@@ -29,6 +30,8 @@ function App() {
       <About />
 
       <Skills {...skills} />
+
+      <Strenghts  {...strenghts}/>
 
       <Experience
         header = "Work experience"
