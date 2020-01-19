@@ -8,7 +8,7 @@ function Experience(props) {
 
   return (
     <div className={`experience ${props.className}`}>
-      <h1 className="header-experience">{props.header}</h1>
+      <h1 className="experience-header">{props.header}</h1>
 
       {props.mainData.map((elem, index) => {
         const title = elem.jobTitle ? elem.jobTitle : elem.degree;

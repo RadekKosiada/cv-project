@@ -4,7 +4,8 @@
 
 .experience, 
 .skills-unit,
-.about-unit {
+.about-unit,
+.strengths-unit {
   border: 1px solid grey;
   margin: 5px;
 }
@@ -14,7 +15,8 @@
   margin: 0;
 }
 
-.header-experience {
+.experience-header, 
+.strengths-header {
   text-transform: uppercase;
   padding-left: 15px;
 }
@@ -32,6 +34,6 @@
   background-color: beige;
 }
 
-.skills {
+.skill {
   margin: 5px;
 }
